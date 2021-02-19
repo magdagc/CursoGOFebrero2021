@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gitlab.grupoesfera.com.ar/capacitacion/CAP-00104-GoModalidadVirtual/02_estructuras_punteros/02_estructuras/dominio"
+	"github.com/magdagc/CursoGOFebrero2021/02_estructuras_punteros/02_estructuras/dominio"
 )
 
 func main() {

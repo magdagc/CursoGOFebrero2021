@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gitlab.grupoesfera.com.ar/capacitacion/CAP-00104-GoModalidadVirtual/05_metodos_interfaces/04_polimorfismo/animal"
+	"github.com/magdagc/CursoGOFebrero2021/05_metodos_interfaces/04_polimorfismo/animal"
 )
 
 // Animal es una interfaz para que implementen animales
