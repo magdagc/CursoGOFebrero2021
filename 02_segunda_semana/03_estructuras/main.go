@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/magdagc/CursoGOFebrero2021/02_estructuras_punteros/02_estructuras/dominio"
+	"github.com/magdagc/CursoGOFebrero2021/02_segunda_semana/03_estructuras/dominio"
 )
 
 func main() {

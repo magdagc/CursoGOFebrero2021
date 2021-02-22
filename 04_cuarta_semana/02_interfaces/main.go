@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/magdagc/CursoGOFebrero2021/05_metodos_interfaces/02_interfaces/dominio"
+	"github.com/magdagc/CursoGOFebrero2021/04_cuarta_semana/02_interfaces/dominio"
 )
 
 func main() {

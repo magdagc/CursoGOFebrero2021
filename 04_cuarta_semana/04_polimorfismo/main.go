@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/magdagc/CursoGOFebrero2021/05_metodos_interfaces/04_polimorfismo/animal"
+	"github.com/magdagc/CursoGOFebrero2021/04_cuarta_semana/04_polimorfismo/animal"
 )
 
 // Animal es una interfaz para que implementen animales

@@ -1,7 +1,7 @@
 package main
 
 import (
-	helloworld "github.com/magdagc/CursoGOFebrero2021/01_conceptos_basicos/01_hello_world"
+	helloworld "github.com/magdagc/CursoGOFebrero2021/01_primera_semana/01_hello_world"
 )
 
 func main() {
