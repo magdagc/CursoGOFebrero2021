@@ -8,11 +8,13 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+
+	porcentaje "github.com/magdagc/CursoGOFebrero2021/01_primera_semana/06_importar_paquetes_externos"
 )
 
 // TestPorcentaje usa el paquete que viene para testing en golang.
 func TestPorcentaje(t *testing.T) {
-	var porcentaje float32 = Porcentaje(50, 10)
+	var porcentaje float32 = porcentaje.Porcentaje(50, 10)
 
 	if porcentaje != 5 {
 		t.Error("El 10% de 50 debería ser 5")
@@ -22,6 +24,6 @@ func TestPorcentaje(t *testing.T) {
 // TestPorcentajeConTestify usa el paquete assert de testify para probar,
 // esta dependencia la manejamos con go modules.
 func TestPorcentajeConTestify(t *testing.T) {
-	var porcentaje float32 = Porcentaje(50, 10)
-	assert.Equal(t, 5, porcentaje, "El 10% de 50 debería ser 5")
+	var porcentaje float32 = porcentaje.Porcentaje(50, 10)
+	assert.Equal(t, float32(5), porcentaje, "El 10% de 50 debería ser 5")
 }
