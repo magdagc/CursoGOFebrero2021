@@ -7,10 +7,10 @@ type vertice struct {
 }
 
 var m = map[string]vertice{
-	"Bell Labs": vertice{
+	"Bell Labs": {
 		lat: 40.68433, long: -74.39967,
 	},
-	"Google": vertice{
+	"Google": {
 		lat: 37.42202, long: -122.08408,
 	},
 }
