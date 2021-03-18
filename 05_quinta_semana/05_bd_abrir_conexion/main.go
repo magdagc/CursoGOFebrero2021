@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("ramsql", "TestLoadUserAddresses")
+	db, err := sql.Open("ramsql", "PruebaConexion")
 	if err != nil {
 		fmt.Printf("sql.Open : Error : %s\n", err.Error())
 	} else {

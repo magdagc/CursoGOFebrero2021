@@ -37,8 +37,9 @@
    1. [Goroutines](05_quinta_semana/01_goroutines)
    2. [Select](05_quinta_semana/02_select)
    3. [Paquete context](05_quinta_semana/03_context)
-   4. [Abrir una conexión con base de datos](05_quinta_semana/04_bd_abrir_conexion)
-   5. [Hacer queries con base de datos](05_quinta_semana/05_bd_query)
+   4. [WaitGroup, atomic y Mutex](05_quinta_semana/04_waitgroup_atomic_mutex)
+   5. [Abrir una conexión con base de datos](05_quinta_semana/05_bd_abrir_conexion)
+   6. [Hacer queries con base de datos](05_quinta_semana/06_bd_query)
 6. Sexta semana - API Rest, arquitectura y buenas prácticas
    1. [Cliente http](06_sexta_semana/01_cliente_http)
    2. [Servidor http](06_sexta_semana/02_servidor_http)
