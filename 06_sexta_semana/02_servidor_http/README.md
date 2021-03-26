@@ -10,4 +10,4 @@
 5. Cuando ejecutamos este main, quedará levantado un server al que podremos hacerle requests:
    1. Un request posible es un GET a localhost:8090/hello que imprime un "hello" y desde la terminal podemos hacer con `curl localhost:8090/hello`, ir a esa url desde un browser o enviar el request por Postman.  
    2. Otro request posible es un GET a localhost:8090/headers que imprime los headers del request y desde la terminal podemos hacer con `curl localhost:8090/headers`, ir a la url desde un browser o enviar el request por Postman (los headers serán distintos en cada caso).  
-6. En la collection de postman **07_api_rest.postman_collection.json** están los mismos requests en **02_servidor_http/GET_hello** y **02_servidor_http/GET_headers** por si queremos probarlos allí.  
+6. En la collection de postman **api_rest.postman_collection.json** están los mismos requests en **02_servidor_http/GET_hello** y **02_servidor_http/GET_headers** por si queremos probarlos allí.  
