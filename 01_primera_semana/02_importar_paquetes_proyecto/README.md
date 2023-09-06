@@ -8,6 +8,6 @@ Para utilizar paquetes dentro del mismo proyecto, debemos hacer referencia al pa
 3. En la primera línea de go.mod aparece el módulo que acabamos de inicializar. Cuando queramos importar un paquete que está dentro de nuestro proyecto, en el import debemos escribir la ruta como aparece en go.mod y agregar el directorio donde está nuestro paquete.  
 4. Tenemos un ejemplo en el archivo `main.go` de esta carpeta.  
 5. Para ejecutarlo, desde el directorio del proyecto ejercutamos:  
-`go run 01_conceptos_basicos/02_importar_paquetes_proyecto/main.go`  
-6. En este archivo usamos el paquete main para poder ejecutar la función main (¿qué sucede si cambiamos ese nombre de paquete?) e importamos el paquete helloworld que es el que está en el directorio `01_hello_world`.  
+`go run 01_primera_semana/02_importar_paquetes_proyecto/main.go`  
+6. En este archivo usamos el paquete main y tenemos una función ejecutable llamada main también (¿qué sucede si cambiamos ese nombre de paquete?) e importamos el paquete helloworld que es el que está en el directorio `01_hello_world`.  
 7. ¿Qué pasa si descomentamos la línea que llama a "imprimirHelloWorld" (¡prestemos atención a las mayúsculas!).

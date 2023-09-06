@@ -9,5 +9,5 @@ func main() {
 	helloworld.ImprimirHelloWorld()
 
 	// ¿Qué pasa en este caso?
-	helloworld.ImprimirHelloWorld2()
+	//helloworld.imprimirHelloWorld()
 }

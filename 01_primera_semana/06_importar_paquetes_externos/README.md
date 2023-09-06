@@ -5,7 +5,7 @@
    2. El segundo test hace uso del paquete `assert` que obtenemos del [repositorio de github](https://github.com/stretchr/testify). Este paquete lo vamos a poder usar cuando actualicemos las dependencias con go modules.
 2. Borremos el archivo `go.mod`.
 3. Intentemos ejecutar el test con el siguiente comando desde el directorio del proyecto y veamos qué sucede:
-`go test github.com/magdagc/CursoGOFebrero2021/01_conceptos_basicos/06_importar_paquetes_externos/`
+`go test github.com/magdagc/CursoGOFebrero2021/01_primera_semana/06_importar_paquetes_externos/`
 4. Para inicializar go modules y decirle cuál es el módulo de nuestro proyecto **(porque borramos el archivo go.mod en el paso 2)** ejecutamos desde el directorio del proyecto:  
 `go mod init github.com/magdagc/CursoGOFebrero2021`
 5. Para bajar las dependencias que yo ya haya importado y limpiar si hubiera algunas que no se usen:  

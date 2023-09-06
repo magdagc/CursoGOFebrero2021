@@ -14,6 +14,5 @@ func main() {
 
 // imprimirNumeroRand utiliza el paquete rand para imprimir un número.
 func imprimirNumeroRand() {
-	// ¿Qué piensan que pasa si ejecutamos esto varias veces?
 	fmt.Printf("Mi número favorito es %d\n", rand.Intn(10))
 }
